@@ -17,7 +17,30 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
   width: 40%;
 }
 
+#buttons li {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
 
+#buttons li a {
+  font-size: 18px;
+  color: tan;
+  background-color: black;
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 10px
+}
+
+ul {
+  text-align: center;
+
+ul > li {
+  display: inline-block;
+}
