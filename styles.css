@@ -40,7 +40,8 @@ p {
 
 ul {
   text-align: center;
+}
 
 ul > li {
-  display: inline-block;
+  display: inline-block
 }
