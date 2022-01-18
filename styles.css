@@ -34,13 +34,14 @@ p {
   list-style: none;
   text-decoration: none;
   padding: 10px;
-  margin-right: 10px;
   text-align: center;
-  display: inline-block
+  display: inline-block;
+  float: none;
 }
 
 #buttons li {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  float: none;
 }
