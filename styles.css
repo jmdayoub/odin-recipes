@@ -36,12 +36,25 @@ p {
   padding: 10px;
   text-align: center;
   display: inline-block;
-  float: none;
 }
 
 #buttons li {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  float: none;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px;
+  padding: 10px;
 }
