@@ -13,6 +13,11 @@ p {
   font-size: 24px;
 }
 
+.ingredients {
+  text-align: left;
+  list-style: square;
+  display: list-item;
+}
 .center {
   display: block;
   margin-left: auto;
@@ -22,12 +27,6 @@ p {
   width: 40%;
 }
 
-#buttons li {
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
 #buttons li a {
   font-size: 18px;
   color: tan;
@@ -35,17 +34,13 @@ p {
   list-style: none;
   text-decoration: none;
   padding: 10px;
-  margin-right: 10px
-}
-
-ul {
+  margin-right: 10px;
   text-align: center;
-}
-
-ul > li {
   display: inline-block
 }
 
-#ingredients ul {
-  
+#buttons li {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
